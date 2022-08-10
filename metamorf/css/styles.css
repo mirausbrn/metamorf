@@ -1,0 +1,221 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #white;
+  font-family: 'Oxygen', sans-serif; 
+}
+
+
+#header-nav {
+ background-color: #FFFFFF;
+ border-radius: 0;
+ border: 0;
+ border-bottom: 1px solid #555;
+}
+
+.navbar-brand {
+  padding-bottom: 25px;
+}
+
+
+.navbar-brand h1 { /* Title*/
+  font-family: 'Amatic SC', serif;
+  color: #ed9a00;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
+/*motto above the title*/
+
+.motto_sub {
+    padding-top: 9px;
+    padding-bottom: 93px;
+    font-size: 10px;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+/* END of the motto above the title */
+
+
+/* MAIN Title*/
+h2 { 
+  font-family: 'Roboto', serif;
+  color: rgb(237, 154, 0);
+  font-weight: 600;
+  font-weight: bold;
+  font-size:  60px;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+/* END MAIN Title*/
+
+
+/*motto subtitle below the main title*/
+
+.below_sub {
+    padding-top: 9px;
+    padding-bottom: 93px;
+    font-size: 20px;
+    font-family: 'Roboto', Arial,sans-serif;
+    font-weight: 300;
+    color: #000;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+/*end Of ABOUT PROJECT*/
+
+
+/*CAROUSEL GALLERY*/
+
+.carousel-inner img {
+  margin: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+/*END of CAROUSEL*/
+
+
+ #logo-img {
+  background: url('../images/logo_medium.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 5px 5px 5px 0;
+}
+         
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+/*# nav list and toggle button styling*/
+
+#nav-list {
+  margin-top: 10px;
+  font-family: 'Amatic SC', sans-serif; 
+  font-weight: bold;
+}
+#nav-list a {
+  color:#080C0C;
+  text-align: center;
+  padding-top: 0; /*made navbar hover buttons closer to the top*/
+}
+
+#nav-list a:hover {
+  background: #ed9a00 ;
+}
+#nav-list a span {
+  font-size: auto;
+}
+  
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #dark-grey;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+
+/*# main test styles, including titles */
+span {
+
+  font-size: 20px;
+  text-align: center;
+  background-color: grey;
+ 
+}
+
+a {
+
+    color: white;
+    text-align: center;
+    text-decoration:none;
+    font-weight: bold;
+
+}
+ 
+ section{
+  background-color:#ffd78c ;
+  padding: 5px ;
+  margin: 5px;
+  
+  text-align: center;
+ }
+
+ p{
+  text-align: left;
+ }
+ 
+ strong{
+ font-size: 25px;
+  
+ }
+
+ /* Footer */
+ 
+ #author {
+    color: #7c7c7c;
+    text-decoration: none;
+    font-weight: bold;
+    font-weight: 600;
+}
+
+#panel-footer{
+ background-color:08204d;
+}
+/* Footer ends*/ 
+
+@media (min-width: 992px) and (max-width: 1199px) {
+#logo-img {
+     background: url(../images/logo_medium.png) no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+}
+
+}
+@media (min-width: 1200px) {
+
+#logo-img {
+    background: url(../images/logo_large.png) no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) and (max-width: 991px) {
+
+  .navbar-brand h1 { /* Title*/
+  font-family: 'Amatic SC', serif;
+  color: #ed9a00;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+
